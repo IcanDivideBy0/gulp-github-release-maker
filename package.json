@@ -1,6 +1,6 @@
 {
   "name": "gulp-github-release-maker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple gulp plugin to create a GitHub release",
   "main": "lib/index.js",
   "scripts": {

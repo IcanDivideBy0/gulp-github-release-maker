@@ -1,4 +1,4 @@
-# Gulp GitHub release maker
+#Gulp GitHub release maker
 
 [![Build Status](https://travis-ci.org/IcanDivideBy0/gulp-github-release-maker.svg?branch=master)](https://travis-ci.org/IcanDivideBy0/gulp-github-release-maker)
 

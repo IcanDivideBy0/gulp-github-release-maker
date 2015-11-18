@@ -1,0 +1,37 @@
+{
+  "name": "gulp-github-release-maker",
+  "version": "0.0.0",
+  "description": "Simple gulp plugin to create a GitHub release",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/jshint gulpfile.js lib test",
+    "precommit": "npm run lint",
+    "prepush": "npm test"
+  },
+  "author": "Samuel Hurel <samuel.hurel@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IcanDivideBy0/gulp-github-release-maker"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "gulp": "^3.9.0",
+    "gulp-git": "^1.6.0",
+    "gulp-prompt": "^0.1.2",
+    "gulp-util": "^3.0.7",
+    "lodash": "^3.10.1",
+    "mversion": "^1.10.1",
+    "semver": "^5.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "husky": "^0.10.2",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "through": "^2.3.8"
+  }
+}

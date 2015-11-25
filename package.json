@@ -22,7 +22,6 @@
     "gulp-prompt": "^0.1.2",
     "gulp-util": "^3.0.7",
     "lodash": "^3.10.1",
-    "minimist": "^1.2.0",
     "mversion": "^1.10.1",
     "semver": "^5.0.3"
   },

@@ -27,5 +27,5 @@ gulp.task('release:do', function (done) {
 
   if (!type) return done('You must specify a release type (--patch|--minor|--major)');
 
-  githubRelease({ type: type }, done);
+  githubRelease.createRelease({ type: type }, done);
 });
